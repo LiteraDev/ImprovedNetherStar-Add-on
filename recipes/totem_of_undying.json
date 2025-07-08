@@ -1,0 +1,39 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:totem_of_undying"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "EGE",
+      "GSG",
+      "DGD"
+    ],
+    "key": {
+      "E": {
+        "item": "minecraft:emerald_block"
+      },
+      "S": {
+        "item": "minecraft:nether_star"
+      },
+      "G": {
+        "item": "minecraft:gold_block"
+      },
+      "D": {
+        "item": "minecraft:dragon_breath"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ],
+    "result": {
+      "item": "minecraft:totem_of_undying",
+      "count": 1
+    }
+  }
+}

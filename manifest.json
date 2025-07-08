@@ -1,0 +1,21 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "This add-on adds crafting recipes for uncraftable items using the Nether Star.\nBy LiteraGame.",
+        "name": "Improved Nether Star 1.0",
+        "uuid": "98bc3c4b-fd02-4600-8801-144085bdc18c",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 21, 70 ]
+     },
+    "modules": [
+    {
+      "type": "data",
+      "uuid": "df9bb732-bcdc-4368-8c3d-accb15c87f48",
+      "version": [ 1, 0, 0 ]
+    }
+    ],
+  "metadata": {
+    "authors": ["LiteraGame"],
+      "product_type": "addon"
+  }
+}

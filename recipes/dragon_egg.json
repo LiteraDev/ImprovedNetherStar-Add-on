@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:dragon_egg"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "DSD",
+      "SOS",
+      "DSD"
+    ],
+    "key": {
+      "O": {
+        "tag": "minecraft:egg"
+      },
+      "S": {
+        "item": "minecraft:nether_star"
+      },
+      "D": {
+        "item": "minecraft:dragon_breath"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ],
+    "result": {
+      "item": "minecraft:dragon_egg",
+      "count": 1
+    }
+  }
+}

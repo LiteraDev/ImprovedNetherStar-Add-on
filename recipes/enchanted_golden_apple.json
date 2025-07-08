@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:enchanted_golden_apple"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BSB",
+      "BAB",
+      "BBB"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:gold_block"
+      },
+      "S": {
+        "item": "minecraft:nether_star"
+      },
+      "A": {
+        "item": "minecraft:apple"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ],
+    "result": {
+      "item": "minecraft:enchanted_golden_apple",
+      "count": 1
+    }
+  }
+}

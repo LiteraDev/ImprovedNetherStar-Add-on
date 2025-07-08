@@ -1,0 +1,39 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:name_tag"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " AI",
+      " SA",
+      "P  "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:string"
+      },
+      "S": {
+        "item": "minecraft:nether_star"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "P": {
+        "item": "minecraft:paper"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ],
+    "result": {
+      "item": "minecraft:name_tag",
+      "count": 16
+    }
+  }
+}

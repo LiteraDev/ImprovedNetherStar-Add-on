@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:elytra"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PIP",
+      "PSP",
+      "P P"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:phantom_membrane"
+      },
+      "S": {
+        "item": "minecraft:nether_star"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ],
+    "result": {
+      "item": "minecraft:elytra",
+      "count": 1
+    }
+  }
+}

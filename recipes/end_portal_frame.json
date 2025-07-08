@@ -1,0 +1,42 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:end_portal_frame"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " E ",
+      "DSD",
+      "TOT"
+    ],
+    "key": {
+      "E": {
+        "item": "minecraft:ender_eye"
+      },
+      "S": {
+        "item": "minecraft:nether_star"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "O": {
+        "item": "minecraft:obsidian"
+      },
+      "T": {
+        "item": "minecraft:end_stone"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ],
+    "result": {
+      "item": "minecraft:end_portal_frame",
+      "count": 3
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:trident"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CCC",
+      "PSP",
+      "PPP"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:prismarine_crystals"
+      },
+      "S": {
+        "item": "minecraft:nether_star"
+      },
+      "P": {
+        "item": "minecraft:prismarine_shard"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ],
+    "result": {
+      "item": "minecraft:trident",
+      "count": 1
+    }
+  }
+}

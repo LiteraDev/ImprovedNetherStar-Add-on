@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:sculk_catalyst"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CCC",
+      "CSC",
+      "BBB"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:bone_block"
+      },
+      "S": {
+        "item": "minecraft:nether_star"
+      },
+      "C": {
+        "item": "minecraft:sculk"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ],
+    "result": {
+      "item": "minecraft:sculk_catalyst",
+      "count": 2
+    }
+  }
+}

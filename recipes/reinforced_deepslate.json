@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:reinforced_deepslate"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "DCD",
+      "SDS",
+      "DSD"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:deepslate"
+      },
+      "S": {
+        "item": "minecraft:nether_star"
+      },
+      "C": {
+        "item": "minecraft:sculk_shrieker"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ],
+    "result": {
+      "item": "minecraft:reinforced_deepslate",
+      "count": 10
+    }
+  }
+}
